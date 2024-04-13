@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IEwedge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fontawesome.com/docs/web/dig-deeper/accessibility?" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&family=Nunito&family=Palanquin+Dark:wght@500&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fontawesome.com/docs/web/dig-deeper/accessibility?" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" 
+    integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" 
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="script.js" ></script>
+
+    <title>Contact </title>
+ </head>
+ <body>
+    <section id="header">
+        <a href="#"><img src="logo4.png" class="logo" alt="site's logo" 
+            height="100px" width="100px"  > </a>
+        <div>
+            <ul id="navbar">
+                <li ><a  href="home.html">Home</a></li>
+                <li ><a href="shop.html">Shop</a></li>
+                <li ><a href="blog.html">Blog</a></li>
+                <li ><a href="about.html">AboutUs</a></li>
+                <li ><a class="active" href="contact.html">Contact</a></li>
+                <li ><a href="cart.html">Cart</a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="contact_header">
+            
+            <h2>#Let's Talk </h2>
+           
+            <p> Leave a message, WE LOVE to hear from you! </p>
+            
+
+    </section>
+
+    <section id="contact-details" class="section-p1">
+        <div class="details">
+            <span>GET IN TOUCH</span>
+            <h2>Visit one of our agency locations or contact us today</h2>
+            <h3>Head Office</h3>
+            <div>
+                <li>
+                    <i class="fal fa-map"></i>
+                    <p>ENIS SFAX</p>
+                </li>
+                
+                <li>
+                    <i class="far fa-envelope"></i>
+                    <p>contact@example.com</p>
+                </li>
+                <li>
+                    <i class="fas fa-phone-alt"></i>
+                    <p>+216 12 345 678</p>
+                </li>
+                <li>
+                    <i class="far fa-clock"></i>
+                    <p>Monday to Saturday: 8.00am to 4.00pm</p>
+                </li>
+            </div>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.171056085787!2d10.714615325207008!3d34.72608243185152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13002ca4425ed6a1%3A0x1cb1842d2707fe25!2s%C3%89cole%20Nationale%20d&#39;Ing%C3%A9nieurs%20de%20Sfax%20-%20ENIS!5e0!3m2!1sfr!2stn!4v1702470344686!5m2!1sfr!2stn" 
+                width="600" height="450" style="border:0;" 
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+    <section id="form-details">
+        <form id="monFormulaire" name="loginForm" action="" onsubmit="return validateForm(event) "> 
+            <span>LEAVE A MESSAGE</span> 
+            <h2>We love to hear from you</h2> 
+            <input type="text" name="FirstName" id="nom_client" placeholder="Enter Your First Name" required onkeyup="upp_first_letter()"> 
+            <input type="text" name="LastName" id="prenom_client" placeholder="Enter Your Last Name" required onkeyup="upp_first_letter()"> 
+            <input type="mail" name="mail" placeholder="Enter Youn E-mail"> 
+            <input type="tel" name="numeroTel" placeholder="Enter Your Phone Number sous la forme XX YYY ZZZ">
+            <p id="note"></p>
+            <input type="text" placeholder="Subject"> 
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <button type="submit" class="normal" >Submit</button> 
+            <br>
+            <button type="reset" class="normal">cancel</button>
+        </form> 
+        <div class="people">
+            <div>
+                <img src="Emna.jpg" alt="" width="100px" height="100px">
+                <p><span>Emna Koubaa</span>Etudiante GI1 ENIS
+                    <br>Phone: +216 12 345 678
+                    <br>Email: emna.koubaa@enis.tn
+                </p>
+            </div>
+            <div>
+                <img src="Chaima.jpg" alt="" width="100px" height="100px">
+                <p><span>Chaima Ksibi</span>Etudiante GI1 ENIS
+                    <br>Phone: +216 87 654 321
+                    <br>Email: chaima.ksibi@enis.tn
+                </p>
+            </div>
+        </div>
+    </section> 
+
+    <section id="newsletter" class="section-p1 section-m1">
+    <div class="newstext">
+        <h4>Sign up for Newsletters</h4>
+        <p>get E-mail updates about our shop and <span>special offers</span> .</p>
+
+    </div>
+    <div class="form">
+        <input type="text" placeholder="Your email adress">
+        <button class="normal">Sign Up</button>
+    </div>
+    </section>
+    <footer class="section-p1">
+    <div class="col">
+        <img  class="logo" src="logo4.png" alt="" height="100px" width="100px"  >
+        <br>
+        <h4>CONTACT</h4>
+        <P> <strong>Address: </strong>SFAX , Tunisia </P>
+        <p><strong>Phone:</strong> 0054255</p>
+        <div class="follow">
+            <h4>Follow Us</h4>
+            <div class="icon">
+                <img class="facebook" src="logo_facebook.png" alt="" height="20px" width="20px" >   
+                <!--<i class="fa-brands fa-facebook" ></i>-->
+                <img class="instagram" src="logo_instagram.png" alt="" height="20px" width="20px" >
+                <!--<i class="fa-brands fa-instagram"></i>-->
+                <img class="tiktok" src="logo_tiktok.png" alt="" height="20px" width="20px" >
+                <!--<i class="fa-brands fa-tiktok"></i>-->
+               
+            </div>
+
+        </div>
+    </div>
+
+    <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us </a>
+        <a href="#">Delivery Information </a>
+        <a href="#" >Privacy Policy</a>
+        <a href="#">Terms & conditions </a>
+        <a href="#" >Contact Us</a>
+    </div>
+
+    <div class="col">
+        <h4> My Account</h4>
+        <a href="#">Sign in </a>
+        <a href="#">View cart</a>
+        <a href="#">My wishlist</a>
+        <a href="#">Track my order </a>
+        <a href="#">Help</a>
+    </div>
+    <div class="colinstall">
+        <h4>Install app</h4>
+        <p>from App Store Or Play Store</p>
+        <div class="row">
+            <img src="download5.png" alt="" height="130px" width="200">
+        </div>
+        <p>secure payment getways  </p>
+        <img src="https://www.kindpng.com/picc/m/47-479391_payment-method-icons-png-png-download-transparent-payment.png" alt="" 
+        width="200px"
+        height ="100px">
+    
+    </div>
+    <div class="copyright">
+       <p>projet html 2023</p> 
+    </div>
+
+</footer>
+        <script src="script.js" class="section-p1">
+        </script>
+ </body>
+ </html>

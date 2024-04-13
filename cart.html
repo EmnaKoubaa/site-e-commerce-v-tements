@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IEwedge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fontawesome.com/docs/web/dig-deeper/accessibility?" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&family=Nunito&family=Palanquin+Dark:wght@500&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fontawesome.com/docs/web/dig-deeper/accessibility?" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" 
+    integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" 
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="script.js" ></script>
+
+    <title>Cart </title>
+ </head>
+ <body>
+    <section id="header">
+        <a href="#"><img src="logo4.png" class="logo" alt="site's logo" 
+            height="100px" width="100px"  > </a>
+        <div>
+            <ul id="navbar">
+                <li ><a  href="home.html">Home</a></li>
+                <li ><a href="shop.html">Shop</a></li>
+                <li ><a href="blog.html">Blog</a></li>
+                <li ><a href="about.html">AboutUs</a></li>
+                <li ><a  href="contact.html">Contact</a></li>
+                <li ><a class="active" href="cart.html">Cart</a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="cart_header">
+            
+            <h2>#Cart </h2>
+           
+            <p> Add your coupon code &SAVE upto <strong> 70%</strong> ! </p>
+            
+
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/im2.jpg" alt=""></td>
+                    <td>Black and Red Hoodie</td>
+                    <td>60dt</td>
+                    <td><input type="number" value="1" name="" id=""></td>
+                    <td>60dt</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/im3.jpg" alt=""></td>
+                    <td>Red Hoodie</td>
+                    <td>50dt</td>
+                    <td><input type="number" value="1" name="" id=""></td>
+                    <td>50dt</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/im4.jpg" alt=""></td>
+                    <td>White Hoodie</td>
+                    <td>70dt</td>
+                    <td><input type="number" value="1" name="" id=""></td>
+                    <td>70dt</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>118dt</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>118dt</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to checkout</button>
+        </div>
+
+    </section>
+
+    <footer class="section-p1">
+    <div class="col">
+        <img  class="logo" src="logo4.png" alt="" height="100px" width="100px"  >
+        <br>
+        <h4>CONTACT</h4>
+        <P> <strong>Address: </strong>SFAX , Tunisia </P>
+        <p><strong>Phone:</strong> 0054255</p>
+        <div class="follow">
+            <h4>Follow Us</h4>
+            <div class="icon">
+                <img class="facebook" src="logo_facebook.png" alt="" height="20px" width="20px" >   
+                <!--<i class="fa-brands fa-facebook" ></i>-->
+                <img class="instagram" src="logo_instagram.png" alt="" height="20px" width="20px" >
+                <!--<i class="fa-brands fa-instagram"></i>-->
+                <img class="tiktok" src="logo_tiktok.png" alt="" height="20px" width="20px" >
+                <!--<i class="fa-brands fa-tiktok"></i>-->
+               
+            </div>
+
+        </div>
+    </div>
+
+    <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us </a>
+        <a href="#">Delivery Information </a>
+        <a href="#" >Privacy Policy</a>
+        <a href="#">Terms & conditions </a>
+        <a href="#" >Contact Us</a>
+    </div>
+
+    <div class="col">
+        <h4> My Account</h4>
+        <a href="#">Sign in </a>
+        <a href="#">View cart</a>
+        <a href="#">My wishlist</a>
+        <a href="#">Track my order </a>
+        <a href="#">Help</a>
+    </div>
+    <div class="colinstall">
+        <h4>Install app</h4>
+        <p>from App Store Or Play Store</p>
+        <div class="row">
+            <img src="download5.png" alt="" height="130px" width="200">
+        </div>
+        <p>secure payment getways  </p>
+        <img src="https://www.kindpng.com/picc/m/47-479391_payment-method-icons-png-png-download-transparent-payment.png" alt="" 
+        width="200px"
+        height ="100px">
+    
+    </div>
+    <div class="copyright">
+       <p>projet html 2023</p> 
+    </div>
+
+</footer>
+        <script src="script.js" class="section-p1">
+        </script>
+ </body>
+ </html>
